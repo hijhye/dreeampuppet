@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="sub_floatingStyle.css" />
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-simplyscroll/2.1.1/jquery.simplyscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="floating">
+      <div class="top">
+        <div class="topInner">
+          <i class="fa-solid fa-arrow-up"></i>
+          <p>TOP</p>
+        </div>
+      </div>
+      <div class="floatFix">
+        <img src="../characterIMG/png/daram_cute.png" alt="" />
+        <p>CONTACT</p>
+      </div>
+      <div class="inquery">
+        <i class="fa-solid fa-xmark"></i>
+        <h4>온라인으로 간편하게</h4>
+        <p>제이퍼펫에서 꼼꼼하게 확인하여 개별 연락드립니다.</p>
+        <ul>
+          <li>
+            <span>이름</span
+            ><input type="text" placeholder="성함을 입력해주세요" />
+          </li>
+          <li>
+            <span>연락처</span
+            ><input type="text" placeholder="연락처를 입력해주세요" />
+          </li>
+          <li>
+            <span>문의사항</span
+            ><input type="text" placeholder="문의사항을 입력해주세요" />
+          </li>
+        </ul>
+        <button class="send">문의하기</button>
+      </div>
+    </div>
+
+    <script src="sub_floatingCustom.js"></script>
+  </body>
+</html>
